@@ -1,0 +1,55 @@
+html {
+  font-size: 10px;
+}
+body {
+  font-family: serif;
+  font-size: 2rem;
+  background-image: url("https://media.npr.org/assets/img/2020/08/27/nasa-goods-real_wide-9168d715c2d4c488d7a0e594b397d7abdd969d9d-s1100-c15.png");
+  color: white;
+  text-align: center;
+}
+#tribute-link{
+  color: orange;
+}
+#headline{
+  color: orange;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.2;
+}
+
+li {
+  margin: 16px auto;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: right;
+}

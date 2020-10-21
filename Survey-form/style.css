@@ -1,0 +1,28 @@
+#title{
+  text-align: center;
+  font-size: 3em;
+}
+#description {
+  font-size: 2em;
+  text-align: center;
+}
+
+
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  width: 50em;
+}
+
+form {
+  display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+}
+
+

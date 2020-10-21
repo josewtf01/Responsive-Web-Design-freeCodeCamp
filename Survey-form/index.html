@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Survey form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1 id="title">Costumer Service</h1>
+<p id="description">Introduce your data and problem to request assistance</p>
+  </header>
+  <form id="survey-form">
+  
+    <label id="name-label" for="name">Name</label>
+    <br>
+<input  type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required/>
+    <br>
+    
+    
+     <label id="email-label" for="email">Email</label>
+    <br>
+<input  type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required/>
+  <br>
+    
+    <label id="number-label" for="number">Age (optional)</label>
+    <br>
+<input  type="number" name="Age" id="number" class="form-control" placeholder="Enter your Age" min="18" max="120" />
+  <br>
+    
+    <p>What problem do you have?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select Problem</option>
+        <option value="student">Product fail</option>
+        <option value="job">Employee bad manners</option>
+        <option value="learner">Ticket money incorrect</option>
+        <option value="other">Other</option>
+      </select>
+  
+    
+    <p>You are from?</p>
+ <label>
+<input
+          name="area"
+          value="Inside Mexico"
+          type="radio"
+          class="input-radio"
+          checked
+        />Inside Mexico</label>
+    
+<label> <input
+          name="area"
+          value="Outside Mexico"
+          type="radio"
+          class="input-radio"
+        />Outside Mexico</label>
+<br>
+    
+    <p>What would you prefer? <span class="clue">(If apply)</span></p>
+
+<label><input
+          name="prefer"
+          value="Cahnge my item for another same kind"
+          type="checkbox"
+          class="input-checkbox"
+        />Change my item for another same kind</label>
+    <br>
+    
+<label><input
+          name="prefer"
+          value="Total Refund"
+          type="checkbox"
+          class="input-checkbox"
+        />Total Refund</label>
+    <br>
+   
+<label><input
+          name="prefer"
+          value="change my item for another one of the same value"
+          type="checkbox"
+          class="input-checkbox"
+        />Change my item for another one of the same value</label>
+    <br>
+      
+    <p>Any comments or suggestions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    
+    <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    
+  </form>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html> 
